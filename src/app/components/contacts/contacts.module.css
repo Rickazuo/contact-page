@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 3.5rem;
+}
+
+.contactStructure {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contactIndexLetter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--purple-500);
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--gray-50);
+  gap: 2rem;
+}
+
+.photoPerson {
+  width: 4rem;
+  height: 4rem;
+}
+
+.infoContact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

@@ -6,7 +6,7 @@ import deleteIcon from "../../../../public/deleteIcon.svg";
 import edit from "../../../../public/edit.svg";
 import search from "../../../../public/search.svg";
 
-export default function Header() {
+export default function Header({ setSearch }) {
   return (
     <div className={styles.container}>
       <div className={styles.headlineIcons}>
@@ -48,6 +48,7 @@ export default function Header() {
           id="search"
           className={styles.searchContacts}
           type="text"
+          onChange={(e) => setSearch(e.target.value.toLowerCase())}
           placeholder="Busque por nome ou por dados de contato..."
         />
       </div>
