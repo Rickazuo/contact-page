@@ -46,7 +46,7 @@ _<h2 align="center" ><a href="https://contact-page-phi.vercel.app/" target="_bla
 Você pode visualizar o layout proposto pela RocketSeat através do da <a href="#-layout-figma">imagem abaixo</a>. Disponibilizado pelo [Figma](https://figma.com) durante o período do desafio.
 
 <p align="center" id="-layout-figma">
-  <img alt="uploader figma" src="./public/figma.png" width="100%">
+  <img alt="uploader figma" src="./public/figma.png" width="60%">
 </p>
 
 ## 📃 Collaborators
