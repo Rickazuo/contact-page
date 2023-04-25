@@ -27,6 +27,22 @@ const defaultList = [
     name: "Brenda Mendes",
     phone: "(21) 90876-8765",
   },
+  {
+    image: photo4,
+    name: "Caio Vinícius",
+    phone: "(21) 90876-8765",
+  },
+  {
+    image: photo5,
+    name: "Cleiton Souza",
+    phone: "(21) 90876-8765",
+  },
+  {
+    image: photo6,
+    name: "Daniel Duarte",
+    phone: "(21) 90876-8765",
+  },
+
 ];
 
 export default function Home() {
@@ -35,16 +51,12 @@ export default function Home() {
 
   function getLetterIndex() {
     let actualLetter = "a";
-    const result = [];
-    for (let i = 0; i < contactList.length; i++) {
-      debugger;
+    const result = ['A'];
+    for (let i = 0; i < contactList.length-1; i++) {
       if (
-        actualLetter.toLowerCase() == contactList[i].name[0].toLowerCase() &&
-        !result.includes(
-          contactList[i].name[0].toLowerCase()
-        )
+        actualLetter.toLowerCase() != contactList[i+1].name[0].toLowerCase() 
       ) {
-        const letter = contactList[i].name[0].toUpperCase();
+        const letter = contactList[i+1].name[0].toUpperCase();
         actualLetter = letter;
         result.push(letter);
       } else {

@@ -3,8 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin: 0 auto;
+}
+
+.listBox {
+  display: flex;
+  flex-direction: column;
   gap: 3.5rem;
+  margin-top: 2rem;
+
+  width: 23rem;
+  height: 28rem;
+  overflow-y: scroll;
 }
 
 .contactStructure {
