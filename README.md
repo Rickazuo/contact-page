@@ -14,7 +14,7 @@
 <br>
 
 <p align="center" id="-layout">
-  <img alt="uploader gif" src="./assets/pricing.gif" width="100%">
+  <img alt="project gif" src="./public/contact.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
